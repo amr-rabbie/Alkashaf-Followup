@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.prog3.alkasaffollowup">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="Alkashaf Login">
+        </activity>
+        <activity
+            android:name=".MainClientsActivity"
+            android:label="Clients" />
+        <activity
+            android:name=".ContractingInfoActivity"
+            android:label="Contracting Info" />
+        <activity
+            android:name=".ProjectContractingInfo"
+            android:label="Project Contracting Info" />
+        <activity
+            android:name=".ProjectScduleFees"
+            android:label="Project Scduale Fees" />
+        <activity
+            android:name=".ProjDesignPayments"
+            android:label="Project Design Payment" />
+        <activity
+            android:name=".ProjConditions"
+            android:label="Project Conditions" />
+        <activity
+            android:name=".ReqirmentsFollUpActivity"
+            android:label="Project Requirement" />
+        <activity
+            android:name=".SchdualeFollUpActivity"
+            android:label="Project Scduale" />
+        <activity
+            android:name=".PermitsFollUpActivity"
+            android:label="Project Permits" />
+        <activity
+            android:name=".FinancialFollowupActivity"
+            android:label="Financial" />
+        <activity
+            android:name=".MailingFollowupActivity"
+            android:label="Client Mail Out" />
+        <activity
+            android:name=".ProgressSteage"
+            android:label="Progress Steage" />
+        <activity
+            android:name=".PaymentsAndConditions"
+            android:label="Payements and Conditions" />
+        <activity
+            android:name=".ProjCollectedFollowup"
+            android:label="Project Collected" />
+        <activity
+            android:name=".ProjInvoicesFollowup"
+            android:label="Project Invoices" />
+        <activity
+            android:name=".ProjBalance"
+            android:label="Project Balances" />
+        <activity android:name=".NewActivity" />
+        <activity
+            android:name=".DisplayMailOut"
+            android:label="Message Details" />
+        <activity android:name=".SplashActivity" android:label="Alkashaf">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
